@@ -86,3 +86,10 @@
     transition: .1s;
     background-color: $body-color;
 }
+
+.active-link {
+    background: $white-color;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

@@ -1,0 +1,51 @@
+/*=============== HOME ===============*/
+.home {
+    &__img {
+        width: 250px;
+        position: absolute;
+        top: -16rem;
+        right: 1.5rem;
+    }
+
+    &__data {
+        padding-top: 5rem;
+    }
+
+    &__header {
+        position: relative;
+    }
+
+    &__title {
+        font-size: $biggest-font-size;
+        background: $text-gradient;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        position: absolute;
+        top: -4rem;
+        left: 1rem;
+        line-height: 6rem;
+
+        &-description {
+            font-size: $h3-font-size;
+            font-weight: $font-medium;
+            margin-bottom: $m-1;
+        }
+    }
+
+    &__subtitle {
+        font-size: $big-font-size;
+        margin-bottom: $m-2-5;
+    }
+
+    &__description {
+        margin-bottom: $m-2-5;
+        line-height: $text-line-height;
+    }
+
+    &__price {
+        font-size: $h3-font-size;
+        font-weight: $font-semi-bold;
+        margin-left: $m-0-75;
+    }
+}

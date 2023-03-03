@@ -1,0 +1,41 @@
+/*=============== SPECS ===============*/
+.specs {
+    &__container {
+        position: relative;
+    }
+
+    &__content {
+        row-gap: 1.5rem;
+    }
+
+    &__data {
+        display: grid;
+        row-gap: .25rem;
+    }
+
+    &__icon {
+        font-size: 1.25rem;
+        color: $white-color;
+    }
+
+    &__title {
+        font-size: $normal-font-size;
+        font-weight: $font-medium;
+    }
+
+    &__subtitle {
+        font-size: $smaller-font-size;
+    }
+
+    &__data:nth-child(1),
+    &__data:nth-child(4) {
+        margin-left: $m-1-5;
+    }
+
+    &__img {
+        width: 250px;
+        position: absolute;
+        top: 2rem;
+        right: -4rem;
+    }
+}

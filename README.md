@@ -9,3 +9,5 @@
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
 ![](/preview.png)
+
+- Sourced and slightly modified code with the SASS preprocessor from the [Bedimcode](https://github.com/Bedimcode) repository.
